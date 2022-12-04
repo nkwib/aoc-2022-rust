@@ -8,7 +8,7 @@ fn solve_first(input: String) {
         let common_char: char = utils::get_common_chars(vec![first, second]);
         priorities.push(utils::get_priority(common_char));
     }
-    println!("{}", priorities.iter().sum::<i32>());
+    println!("The sum of priorities of the items type is: {}", priorities.iter().sum::<i32>());
 }
 
 fn solve_second(input: String) {
@@ -25,7 +25,7 @@ fn solve_second(input: String) {
         priorities.push(utils::get_priority(common_char));
         i += 3;
     }
-    println!("{}", priorities.iter().sum::<i32>());
+    println!("The sum of priorities for the badges is: {}", priorities.iter().sum::<i32>());
 }
 
 

@@ -4,6 +4,7 @@ use std::io::Read;
 mod day_one;
 mod day_two;
 mod day_three;
+mod day_four;
 mod utils;
 
 fn read_file(name: &str) -> String {
@@ -18,4 +19,5 @@ fn main() {
     day_one::solve(read_file("src/input_one.txt"));
     day_two::solve(read_file("src/input_two.txt"));
     day_three::solve(read_file("src/input_three.txt"));
+    day_four::solve(read_file("src/input_four.txt"));
 }
